@@ -1,0 +1,3 @@
+#GET http://localhost:8080/companies
+
+#DELETE http://localhost:8080/companies/22222
