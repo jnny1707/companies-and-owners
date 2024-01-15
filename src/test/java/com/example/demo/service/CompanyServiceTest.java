@@ -18,13 +18,13 @@ public class CompanyServiceTest {
     public void setup() {
         service = new CompanyService();
     }
-    
-	@Test
-	public void testAddCompany() {
+
+    @Test
+    public void testAddCompany() {
         Company c3 = new Company("Street 3", "5X", "66666", 0.0);
         service.addCompany(c3);
         assertEquals(3, service.getCompanies().size());
-	}
+    }
 
     @Test
     public void testDeleteCompany() {
